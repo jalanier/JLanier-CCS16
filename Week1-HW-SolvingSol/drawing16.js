@@ -1,9 +1,12 @@
+var white;
+
 function setup() {
 	createCanvas(460,460);
+	var white = color(255,0,255);
 }
 
 function draw() {
-  background(255,255,255);
+  background(white);
 
  line(0,0,500,500);
  line(0,5,495,500);
